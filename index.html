@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  
+
+    <div class="header">
+        <h1 id="title">Microverse Survey</h1>
+        <p id="description" class="p">Thank you for taking the time to help us improve the platform</p>
+    </div>
+  <form id="survey-form">
+    
+    <p>
+        <label for="name">Name
+            <input id="name" type="text" placeholder="Enter your name">
+        </label>
+    </p>
+    
+    
+    <p>
+        <label for="email">E-mail
+            <input id="email" type="email" placeholder="Enter your Email">
+        </label>
+    </p>
+    
+    <p>
+        <label for="age">Age
+            <input type="number" placeholder="Age">
+        </label>
+    </p>
+
+
+   <p>
+    <label for="role">Role
+        <select name="role" id="role">
+            <option value="select-an-option" selected disabled>Select an option</option>
+            <option value="current-role">Current Role</option>
+            <option value="Student">Student</option>
+            <option value="full-time">Full Time Job</option>
+        </select>
+    </label>
+   </p>
+
+
+   <h4>Would you recommend freeCodeCamp to a friend?</h4>
+   <input type="radio" name="button" checked>
+   <label for="gender">Definitely</label>
+    <br>
+
+    <input type="radio" name="button">
+    <label for="gender">Maybe</label>
+    
+    <br>
+
+    <input type="radio" name="button">
+    <label for="gender">Not sure</label>
+    
+    
+    <br><br>
+    <h4>What would you like to see improved? (check all that apply)</h4>
+    
+    <input type="checkbox" value="checkbox">
+    <label for="front-end-project">Front-end Project</label>
+    <br>
+    <input type="checkbox" value="checkbox">
+    <label for="back-end-project">back-end-project</label>
+    <br>
+    <input type="checkbox" value="checkbox">
+    <label for="data-visualization">Data Visualization</label>
+    <br>
+    <input type="checkbox" value="checkbox">
+    <label for="ai">AI</label>
+    <br>
+    <input type="checkbox" value="checkbox">
+    <label for="challenges">Challenges</label>
+    <br>
+    <input type="checkbox" value="checkbox">
+    <label for="different-courses">Different Courses</label>
+
+    <br><br>
+    <h4>Any comments or suggestions?</h4>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+
+    <br><br>
+    <button id="submit">Submit</button>
+    
+  </form>
+</body>
+</html>
